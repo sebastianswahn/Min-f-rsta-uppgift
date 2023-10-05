@@ -1,6 +1,8 @@
+
 body {
     width: 100vw;
     height: 100vh;
+    background-color: rgba(195, 123, 88, 0.598);
 }
 
 .nav-left {
@@ -34,10 +36,11 @@ body {
     flex-direction: row;
 }
 .content__2 {
-    margin-left: 20vw;
+    margin-left: 19vw;
+    margin-right: 18vw;
 }
 .image__main {
-    width: 55vw;
+    width: 60vw;
     height: 45vh;
     padding-top: 25px;
 }
@@ -47,8 +50,32 @@ body {
 .image-second-row {
     display: inline-block;
     flex-direction: row;
-    height: 20vh;
+    height: 18vh;
     width: 18vw;
+    padding: 15px;
+}
+a {
+    text-decoration: none;
+    color: rgb(95, 92, 92);
+}
+a:hover {
+    text-decoration: underline;
+    color: black;
     
-    
+}
+.text {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.6rem;
+    margin-left: 19vw;
+    margin-right: 18vw;
+}
+ul {
+    list-style-type: none;
+}
+.image-description {
+    height: 18vh;
+    width: 18vw;
+    padding: 15px;
+    padding-top:4px;
 }
