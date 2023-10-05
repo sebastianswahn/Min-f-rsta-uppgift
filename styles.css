@@ -1,81 +1,81 @@
-
 body {
-    width: 100vw;
-    height: 100vh;
-    background-color: rgba(195, 123, 88, 0.598);
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(195, 123, 88, 0.598);
 }
 
 .nav-left {
-    display:flex;
-    flex-direction: column;
-    list-style-type: none;
-    width: 20vw;
-    padding-right: 0;
-    gap: 30px;
-    margin-left: 150x;
-    margin-top: 50px;
-    font-size: 2rem;
-    margin-right: 0;
-
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  width: 15vw;
+  height: 32vh;
+  gap: 35px;
+  padding-left: 20px;
+  padding-top: 20px;
+  font-size: 2rem;
+  background-color: pink;
+  border-radius: 12px;
 }
 .nav-divide {
-    height: 45vh;
-    width: 20vw;
-    padding-top: 50px;
+  height: 22vh;
+  width: 20vh;
+  padding-top: 0px;
 }
 .rubrik {
-    width: 100vw;
-    height: 5vh;
-    text-align: center;
-    font-size: 2rem;
-
-
+  width: 100vw;
+  height: 8vh;
+  text-align: center;
+  justify-content: center;
+  font-size: 3rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: palevioletred;
+  border-radius: 8px;
+  color: rgb(33, 31, 31);
+  position: sticky;
 }
 .content__main {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 .content__2 {
-    margin-left: 19vw;
-    margin-right: 18vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
 }
 .image__main {
-    width: 60vw;
-    height: 45vh;
-    padding-top: 25px;
+  width: 60vw;
+  height: 45vh;
+  padding-top: 15px;
+  margin-left: 150px;
+  border-radius: 20px;
+  padding-bottom: 10px;
+  /*   box-shadow: 10px 0 10px 0; */
 }
 .first-row {
-    display:flex
+  display: flex;
 }
 .image-second-row {
-    display: inline-block;
-    flex-direction: row;
-    height: 18vh;
-    width: 18vw;
-    padding: 15px;
+  display: flex;
+  flex-direction: row;
+  height: 25vh;
+  width: 28vw;
+  padding: 6px;
 }
 a {
-    text-decoration: none;
-    color: rgb(95, 92, 92);
+  text-decoration: none;
+  color: rgb(95, 92, 92);
 }
 a:hover {
-    text-decoration: underline;
-    color: black;
-    
+  text-decoration: underline;
+  color: black;
 }
-.text {
-    display: flex;
-    flex-direction: row;
-    font-size: 1.6rem;
-    margin-left: 19vw;
-    margin-right: 18vw;
-}
-ul {
-    list-style-type: none;
-}
-.image-description {
-    height: 18vh;
-    width: 18vw;
-    padding: 15px;
-    padding-top:4px;
+
+.vacation-card {
+  border: 2px solid black;
+  border-radius: 8px;
 }
