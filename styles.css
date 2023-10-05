@@ -1,0 +1,46 @@
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.nav-left {
+    display:flex;
+    flex-direction: column;
+    list-style-type: none;
+    width: 20vw;
+    padding-right: 0;
+
+    margin-left: 150x;
+    margin-top: 50px;
+    font-size: 1.75rem;
+    margin-right: 0;
+
+}
+.nav-divide {
+    height: 45vh;
+    width: 20vw;
+    padding-top: 100px;
+}
+.rubrik {
+    width: 100vw;
+    height: 10vh;
+    text-align: center;
+    font-size: 2rem;
+
+
+}
+.content__main {
+    display: flex;
+    flex-direction: row;
+}
+.content__2 {
+    margin-left: 20vw;
+}
+.image__main {
+    width: 55vw;
+    height: 35vh;
+    padding-top: 100px;
+}
+.first-row {
+    display:flex
+}
