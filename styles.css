@@ -1,5 +1,5 @@
 body {
-  background-color: rgba(195, 123, 88, 0.598);
+  background-color: rgba(133, 74, 49, 0.598);
 }
 
 .nav-left {
@@ -7,18 +7,14 @@ body {
   flex-direction: column;
   list-style-type: none;
   width: 15vw;
-  height: 32vh;
-  gap: 35px;
+  height: 43vh;
+  gap: 30%;
   padding-left: 20px;
-  padding-top: 20px;
+  padding-top: 25px;
   font-size: 2rem;
   background-color: pink;
   border-radius: 12px;
-}
-.nav-divide {
-  height: 22vh;
-  width: 20vh;
-  padding-top: 0px;
+  margin-top: 15px;
 }
 .rubrik {
   width: 100vw;
@@ -61,7 +57,7 @@ body {
   display: flex;
   flex-direction: row;
   height: 25vh;
-  width: 20vw;
+  width: 18vw;
 }
 a {
   text-decoration: none;
@@ -76,7 +72,8 @@ a:hover {
   border: 2px solid black;
   border-radius: 8px;
   padding: 20px;
+  background-color: rgb(65, 139, 205);
 }
 #main-section {
-  margin-left: 130px;
+  margin-left: 10px;
 }
